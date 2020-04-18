@@ -1,0 +1,49 @@
+* { padding: 0; margin: 0; font-family: Arial; }
+
+html, body { width: 100%; height: 100%; }
+
+body { background-color: #666; }
+
+.content {
+    width: inherit;
+    height: inherit;
+    z-index: 1;
+}
+.content > .centerize {
+    text-align: center;
+    display: inline-block;
+
+    width: 30em;
+    height: 5.5em;
+    margin-left: -15em;
+    margin-top: -2.75em;
+
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+}
+.shrugging {
+    font-size: 2em;
+    /*font-weight: italic;*/
+}
+.main-text {
+    margin-top: 0.5em;
+    font-size: 2em;
+    color: #D08200;
+}
+.support-text {
+    font-size: 1.0em;
+    color: #888;
+    margin-top: 1em;
+}
+#particles-js {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;
+    z-index: 0;
+}
+
